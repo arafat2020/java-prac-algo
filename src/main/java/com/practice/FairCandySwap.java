@@ -31,7 +31,7 @@ public class FairCandySwap {
         return new int[]{};
 
     }
-
+// test
     public static void main(String[] args) {
         FairCandySwap fairCandySwap = new FairCandySwap();
         int[] aliceSizes = {1, 2, 5};
