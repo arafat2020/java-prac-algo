@@ -20,7 +20,7 @@ public class FairCandySwap {
 
 
         for (int i : aliceSizes) {
-            int diff = Math.abs((sumA - sumB)) / 2 + i;
+            int diff = (sumB - sumA) / 2 + i;
             if (arr_set.contains(diff)) {
                 
                 return new int[]{i , diff};
